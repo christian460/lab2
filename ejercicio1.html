@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<head>
+	<title>Ejercicio1</title>
+</head>
+<body>
+	<h1>Ejercicio1<h1>
+	<p id="demo"></p>
+	<script>
+		const fecha = new Date();
+		let dia = fecha.getUTCDay();
+		switch (dia){
+			case 1:
+				document.getElementById("demo").innerHTML = "Es Lunes";
+				break;
+			case 2:
+                                document.getElementById("demo").innerHTML = "Es Martes";
+				break;
+			case 3:
+                                document.getElementById("demo").innerHTML = "Es Miercoles";
+				break;
+			case 4:
+                        	document.getElementById("demo").innerHTML = "Es Jueves";
+				break;
+			case 5:
+                                document.getElementById("demo").innerHTML = "Es Viernes";
+				break;
+			case 6:
+                                document.getElementById("demo").innerHTML = "Es Sabado";
+				break;
+			default:
+				document.getElementById("demo").innerHTML = "Es Domingo";
+                                break;
+		}
+	</script>
+</body>
