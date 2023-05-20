@@ -4,19 +4,21 @@
 </head>
 <body>
 	<h1>Ejercicio2<h1>
-	<form>
+	<form id="form" >
 		<label>Ingrese palabra:</label><br>
-		<input type="text"></input>
+		<input type="text" id="texto">
 	</form>
-	<button type="button" onclick='document.getElementById("demo").innerHTML=invertir()'>Invertir</button>
+	<p id="demo"></p>
+	<button type="button" onclick='getElementById("demo").innerHTML=invertir(getElementById("texto").value)'>Invertir</button>
 	<script>
 		function invertir(palabra){
 			let inv="";
-			for (let l=palabra.length-1;l>0;l--){
-				inv+=palabra.substring(l-1,l);
-				
+			console.log(palabra)
+			for (let l=(palabra.length-1);l>=0;l--){
+				inv+=palabra.substring(l,l+1);
 			}
 			return inv;
 		}
 	</script>
+	<p id="demo"></p>
 </body>
