@@ -120,11 +120,37 @@
 
 ## EJERCICIOS PROPUESTOS
 - Ejercicio 01: Escriba una función que reciba el número de día de la fecha actual new Date() - https://www.w3schools.com/jsref/jsref_obj_date.asp  y devuelva el texto del día de la semana correspondientes. Por ejemplo si recibe 0, devolvería “Domingo”.
+
+  ![Ejercicio1](ejercicio1.jpg)
+  
+  - La etiqueta script lleva un switch con el cual la variable dia que puede tomar un valor de 0-6, segun el numero que represente sera colocado en la pagina web el dia que es hoy
+         
 - Ejercicio 02: Escriba una página web que reciba un texto y al presionar un botón muestre el mismo texto invertido en otra sección (div). Por ejemplo si se escribe “Hola”, se mostraría como “aloH”.
+
+  ![Ejercicio2](ejercicio2.jpg)
+  
+  - Al ser rellenada la caja de texto y presionado el boton se llama a la funcion invertir que se encuentra en el script que utlizando un for recorre la palabra de atras para adelante
+  para poder guardarla en otra variable y q esta contenga la palabra invertda.
+        
 - Ejercicio 03: Escribir una página que muestre cuántos días faltan para el día de Arequipa!
+
+  ![Ejercicio3](ejercicio3.jpg)
+  
+  - Al presionar el boton se llamara a la funcion diasFalta la cual creara una constante con la fecha y una variable como contador de los dias por medio de if y else se consiguen
+  el numero de dias que faltan para el aniversario de Arequipa
+        
 - Ejercicio 04: Escribir un página que reciba el URL de la sesión de google meet de hoy y devuelva el código de la sesión sin guiones separadores
+
+  ![Ejercicio4](ejercicio4.jpg)
+  
+  - Al introducir el url de la reunion de Google Meet y presionar el botonm se llamara a la funcion transformar q cuenta como parametro la url, debido al patron que presentan las urls 
+  se concatena subcadenas las cuales forman el codigo de la reunion.
 - Ejercicio 05: Escribir una página que permita calcular las suma de todos los valores de una tabla de valores dinámica. La idea es crear una página web con un formulario que te permita decir cuantos valores tendrá la tabla, luego, al enviar el formulario la tabla se debe crear dinámicamente, junto con otro botón de envió para calcular la suma.
+
+  ![Ejercicio5](ejercicio5.jpg)
+  
 - Ejercicio 06: Utilice la herramienta flipgrid - https://info.flipgrid.com/ envie un video en el tema "Presentacion y ejemplo deJavaScript" ponga aquí los enlaces de sus envíos.
+- link del video: https://flip.com/s/szRDxGNyvqvL
 #
 
 ## CUESTIONARIO
