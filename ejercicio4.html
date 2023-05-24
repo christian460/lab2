@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<head>
+	<title>Ejercicio4</title>
+</head>
+<body>
+	<h1>Ejercicio 4<h1>
+	<form id="form" >
+		<label>Ingrese el url a transformar:</label><br>
+		<input type="text" id="texto">
+	</form>
+	<p id="demo"></p>
+	<button type="button" onclick='getElementById("demo").innerHTML=transformar(getElementById("texto").value)'>Transformar</button>
+	<script>
+		function transformar(url){
+			let cod="";
+			console.log(url)
+			cod=url.substring(24,27)+" "+url.substring(28,32)+" "+url.substring(33,37);
+			return cod;
+		}
+	</script>
+	<p id="demo"></p>
+</body>
