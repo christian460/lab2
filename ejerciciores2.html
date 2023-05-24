@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<head>
+	<title>Ejercicio Resuelto 1</title>
+</head>
+<body>
+	<h1>Ejercicio Resuelto 1<h1>
+	<form id="form" >
+		<label>Ingrese la cantdad de numeros a generar:</label><br>
+		<input type="text" id="n"><br>
+        <label>Ingrese el minimo valor que puede tomar:</label><br>
+		<input type="text" id="min"><br>
+        <label>Ingrese el maximo valor que puede tomar:</label><br>
+		<input type="text" id="max">
+	</form>
+	<p id="demo"></p>
+	<button type="button" onclick='getElementById("demo").innerHTML=arrayGenerator(getElementById("n").value,getElementById("min").value,getElementById("max").value)'>Generar</button>
+	<script>
+		function votesCounting(votes){
+			let a = [];
+            console.log(max);
+			for (let x=0; x < n; x++){
+				a.push(Math.ceil(Math.random() * (max-min) + min));
+			}
+			return a;
+		}
+	</script>
+	<p id="demo"></p>
+</body>
